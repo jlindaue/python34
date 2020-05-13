@@ -1,0 +1,88 @@
+✎ python-vconnector-0.5.3-4.el7.src.rpm	Yes	Done	Pass	
+✎ R2spec-4.2.1-1.el7.src.rpm	Yes	Done	Pass	
+✎ arc-gui-clients-0.4.6-15.el7.src.rpm	Yes	Done	Pass	
+✎ bodhi-2.11.0-3.el7.src.rpm	Yes	Done	Pass	bodhi-2.11.0-3.0.1.el7.src.rpm
+✎ cmake-fedora-2.9.3-1.el7.src.rpm	Yes	Done	Pass	
+✎ copr-dist-git-0.15-1.el7.src.rpm	Yes	Done	Pass	
+✎ datanommer-commands-0.7.0-1.el7.src.rpm	Yes	Done	Pass	
+✎ dpm-dsi-1.9.14-4.el7.src.rpm	Yes	Done	Pass	
+✎ edg-gridftp-client-1.2.9.2-5.el7.src.rpm	Yes	Done	Pass	
+✎ python-pystalk-0.5.1-2.el7.src.rpm	Yes	Done	Pass	
+✎ fedora-easy-karma-0-0.32.20170930git0c81432c.el7.src.rpm	Yes	Done	Pass	
+✎ fedora-packager-0.6.0.1-1.el7.src.rpm	Yes	Done	Pass	
+✎ fedora-review-0.5.3-2.el7.src.rpm	Yes	Done	Pass	
+✎ fedora-review-plugin-java-4.6.1-1.el7.src.rpm	Yes	Done	Pass	
+✎ fedrepo-req-1.11.1-1.el7.src.rpm	Yes	Done	Pass	
+✎ fedwatch-0.4-2.el7.src.rpm	Yes	Done	Pass	
+✎ gfal2-util-1.5.3-1.el7.src.rpm	Yes	Done	Pass	
+✎ golang-github-vbatts-tar-split-0.11.1-1.el7.src.rpm	Yes	Done	Pass	
+✎ golang-github-SAP-go-hdb-0.9.5-1.el7.src.rpm	Yes	Done	Pass	
+✎ golang-github-goraft-raft-0-0.5.git73f9c44.el7.src.rpm	Yes	Done	Pass	
+✎ golang-github-jlaffaye-ftp-0-0.2.20170927git299b7ff.el7.src.rpm	Yes	Done	Pass	
+✎ golang-github-stretchr-testify-1.2.2-1.el7.src.rpm	Yes	Done	Pass	
+✎ hydra-8.2-1.el7.src.rpm	Yes	Done	Pass	libssh is obsoleted: http://ca-bugzilla.us.oracle.com/bugzilla/show_bug.cgi?id=43583
+TAGS:PLQADONE
+✎ josm-0-0.66.8109svn.el7.src.rpm	Yes	Done	Pass	
+✎ RBTools-1.0.2-1.el7.src.rpm	Yes	Done	Pass	
+✎ python-bigsuds-1.0.6-7.el7.src.rpm	Yes	Done	Pass	
+✎ koschei-2.0.1-1.el7.src.rpm	Yes	Done	Pass	
+✎ mote-0.6.1-4.el7.src.rpm	Yes	Done	Pass	
+✎ php-horde-nag-4.2.19-1.el7.src.rpm	Yes	Done	Pass	
+✎ python-capturer-2.4-5.el7.src.rpm	Yes	Done	Pass	
+✎ python-vevents-0.1.0-0.2.20149631git3ff37a2.el7.src.rpm	Yes	Done	Pass	
+✎ nordugrid-arc-gangliarc-1.0.2-1.el7.src.rpm	Yes	Done	Pass	
+✎ ocaml-curl-0.7.5-3.el7.src.rpm	Yes	Done	Pass	
+✎ ocaml-lwt-2.4.5-8.el7.src.rpm	Yes	Done	Pass	
+✎ openvas-cli-1.4.4-1.el7.src.rpm	Yes	Done	Pass	libssh is obsoleted: http://ca-bugzilla.us.oracle.com/bugzilla/show_bug.cgi?id=43583
+TAGS:PLQADONE
+✎ openvas-gsa-6.0.11-3.el7.src.rpm	Yes	Done	Pass	libssh is obsoleted: http://ca-bugzilla.us.oracle.com/bugzilla/show_bug.cgi?id=43583
+TAGS:PLQADONE
+✎ openvas-libraries-8.0.8-2.el7.src.rpm	Yes	Done	Pass	libssh is obsoleted: http://ca-bugzilla.us.oracle.com/bugzilla/show_bug.cgi?id=43583
+TAGS:PLQADONE
+✎ openvas-manager-6.0.9-1.el7.src.rpm	Yes	Done	Pass	libssh is obsoleted: http://ca-bugzilla.us.oracle.com/bugzilla/show_bug.cgi?id=43583
+TAGS:PLQADONE
+✎ openvas-scanner-5.0.6-1.el7.src.rpm	Yes	Done	Pass	libssh is obsoleted: http://ca-bugzilla.us.oracle.com/bugzilla/show_bug.cgi?id=43583
+TAGS:PLQADONE
+✎ golang-github-Sirupsen-logrus-1.1.1-2.el7.src.rpm	Yes	Done	Pass	
+✎ php-horde-Horde-Dav-1.1.4-1.el7.src.rpm	Yes	Done	Pass	
+✎ boost169-1.69.0-2.el7.src.rpm	Yes	Done	Pass	
+✎ php-horde-content-2.0.5-1.el7.src.rpm	Yes	Done	Pass	
+✎ php-horde-ingo-3.2.15-1.el7.src.rpm	Yes	Done	Pass	
+✎ php-horde-mnemo-4.2.14-1.el7.src.rpm	Yes	Done	Pass	
+✎ php-horde-passwd-5.0.7-1.el7.src.rpm	Yes	Done	Pass	
+✎ python-notify2-0.3.1-3.el7.src.rpm	Yes	Done	Pass	
+✎ php-horde-wicked-2.0.8-1.el7.src.rpm	Yes	Done	Pass	
+✎ python-datanommer-consumer-0.8.0-1.el7.src.rpm	Yes	Done	Pass	
+✎ python-datanommer-models-0.9.0-1.el7.src.rpm	Yes	Done	Pass	
+✎ python-fedbadges-0.5.2-1.el7.src.rpm	Yes	Done	Pass	
+✎ python-fedora-0.10.0-1.el7.src.rpm	Yes	Done	Pass	
+✎ python-flask-restful-0.3.5-4.el7.src.rpm	Yes	Done	Pass	
+✎ python-flask-whooshalchemy-0.6-6.el7.src.rpm	Yes	Done	Pass	
+✎ python-fmn-consumer-1.0.3-1.el7.src.rpm	Yes	Done	Pass	
+✎ python-fmn-lib-0.8.2-1.el7.src.rpm	Yes	Done	Pass	
+✎ python-fmn-rules-0.9.1-1.el7.src.rpm	Yes	Done	Pass	
+✎ python-fmn-web-0.8.1-1.el7.src.rpm	Yes	Done	Pass	
+✎ python-mongoengine-0.8.8-1.el7.src.rpm	Yes	Done	Pass	
+✎ q4wine-1.3.6-1.el7.src.rpm	Yes	Done	Pass	
+✎ rebase-helper-0.7.3-1.el7.src.rpm	Yes	Done	Pass	
+✎ rho-0.0.34-1.el7.src.rpm	Yes	Done	Pass	
+✎ rubygem-async_sinatra-1.3.0-1.el7.src.rpm	Yes	Done	Pass	
+✎ rubygem-sinatra-1.4.8-2.el7.src.rpm	Yes	Done	Pass	
+✎ rubygem-tilt-2.0.7-1.el7.src.rpm	Yes	Done	Pass	
+✎ statscache-0.0.4-1.el7.src.rpm	Yes	Done	Pass	
+✎ statscache-plugins-0.0.2-1.el7.src.rpm	Yes	Done	Pass	
+✎ supybot-fedora-0.3.5-1.el7.src.rpm	Yes	Done	Pass	
+✎ xca-1.1.0-2.el7.src.rpm	Yes	Done	Pass	
+✎ datagrepper-0.9.4-1.el7.src.rpm	Yes	Done	Pass	
+✎ pdc-updater-0.9.3-1.el7.src.rpm	Yes	Done	Pass	
+✎ dislocker-0.7.1-8.el7.src.rpm	Yes	Done	Pass	
+✎ nordugrid-arc-5.4.4-2.el7.src.rpm	Yes	Done	Pass	
+✎ python-fedmsg-meta-fedora-infrastructure-0.29.0-1.el7.src.rpm	Yes	Done	Pass	
+✎ lcgdm-dav-0.22.0-1.el7.src.rpm	Yes	Done	Pass	
+✎ menulibre-2.2.1-1.el7.src.rpm	Yes	Done	Pass	
+✎ resultsdb-2.2.0-1.el7.src.rpm	Yes	Done	Pass	
+✎ boost-nowide-0-20190813.gitec9672b.el7.src.rpm	Yes	Done	Pass	
+✎ packagedb-cli-2.14.1-1.el7.src.rpm	Yes	Done	Pass	
+✎ dpm-xrootd-3.6.6-1.el7.src.rpm	Yes	Done	Pass	
+✎ gramps-5.0.2-1.el7.src.rpm	Yes	Done	Pass	
+✎ python-datadog-0.23.0-3.el7.src.rpm	Yes	Done	Pass

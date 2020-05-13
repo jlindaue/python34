@@ -13,6 +13,7 @@
 # Command Line History (newest to oldest):
 :q
 :wq
+:Q
 :q!
 :w
 
@@ -26,44 +27,82 @@
 # Input Line History (newest to oldest):
 
 # Registers:
-""1	LINE	0
-	        done
+""0	LINE	0
+		echo query=$query
+"1	LINE	0
+		echo $pkg >> done.txt	
 "2	LINE	0
-			#repoquery --disablerepo=* --enablerepo=epel-7* --requires --resolve $rpm
+		fi
 "3	LINE	0
-			rpm -qpR $myrpm.rpm
+			continue
 "4	LINE	0
-			wget http://ca-artifacts.us.oracle.com/auto-build/epel/7/x86_64/$myrpm.rpm
+		if [[ ! -z $(cat done.txt | grep $pkg) ]]; then
 "5	LINE	0
+	        done
+"6	LINE	0
+			#repoquery --disablerepo=* --enablerepo=epel-7* --requires --resolve $rpm
+"7	LINE	0
+			rpm -qpR $myrpm.rpm
+"8	LINE	0
+			wget http://ca-artifacts.us.oracle.com/auto-build/epel/7/x86_64/$myrpm.rpm
+"9	LINE	0
 	        for myrpm in $(rpm -qp $srpm --package); do
 
 # File marks:
-'0  1  0  /etc/yum.repos.d/epel.repo
-'1  12  29  ~/total.sh
-'2  8  18  ~/total.sh
-'3  14  21  ~/total.sh
-'4  13  2  ~/total.sh
-'5  7  9  ~/total.sh
-'6  3  0  ~/total.sh
-'7  4  8  ~/query.sh
-'8  5  1  ~/query.sh
-'9  8  11  ~/query.sh
+'0  22  0  ~/need_rebuild.txt
+'1  1  0  ~/need_rebuild.
+'2  1  0  ~/not_found.sh
+'3  1  0  ~/not_found.
+'4  12  2  ~/total.sh
+'5  3  36  ~/query.sh
+'6  1  0  ~/list.txt
+'7  9  8  ~/is_latest.sh
+'8  21  2  ~/need_rebuild.sh
+'9  15  1  ~/need_rebuild.sh
 
 # Jumplist (newest first):
+-'  22  0  ~/need_rebuild.txt
+-'  1  0  ~/need_rebuild.
+-'  1  0  ~/not_found.sh
+-'  1  0  ~/not_found.
+-'  12  2  ~/total.sh
+-'  3  36  ~/query.sh
+-'  4  8  ~/query.sh
+-'  1  0  ~/list.txt
+-'  9  8  ~/is_latest.sh
+-'  5  1  ~/is_latest.sh
+-'  21  2  ~/need_rebuild.sh
+-'  15  2  ~/need_rebuild.sh
+-'  16  1  ~/need_rebuild.sh
+-'  13  1  ~/need_rebuild.sh
+-'  1  0  ~/need_rebuild.txt
+-'  1  0  ~/need_rebuild.sh
+-'  1  0  ~/problematic_no_python36.txt
+-'  10  9  ~/try_python36.sh
+-'  11  2  ~/try_python36.sh
+-'  1  0  ~/try_python36.sh
+-'  10  2  ~/is_latest.sh
+-'  8  1  ~/is_latest.sh
+-'  1  5  ~/is_latest.sh
+-'  6  6  ~/is_latest.sh
+-'  13  2  ~/is_latest.sh
+-'  1  0  ~/problematic
+-'  1  0  ~/problematic.txt
+-'  5  0  ~/problematic_and_newest.txt
+-'  1  0  ~/problematic_and_newest.txt
+-'  4  1  ~/is_latest.sh
+-'  2  0  ~/is_latest.sh
 -'  1  0  /etc/yum.repos.d/epel.repo
--'  12  29  ~/total.sh
 -'  8  1  ~/total.sh
 -'  14  1  ~/total.sh
 -'  13  1  ~/total.sh
 -'  7  1  ~/total.sh
 -'  3  0  ~/total.sh
 -'  1  0  ~/total.sh
--'  4  8  ~/query.sh
 -'  5  1  ~/query.sh
 -'  8  0  ~/query.sh
 -'  6  1  ~/query.sh
 -'  7  2  ~/query.sh
--'  1  0  ~/list.txt
 -'  8  36  ~/list.txt
 -'  9  36  ~/list.txt
 -'  1  0  ~/query.sh
@@ -71,90 +110,68 @@
 -'  3  36  ~/list.txt
 -'  7  36  ~/list.txt
 -'  2  36  ~/list.txt
--'  1  0  ~/list.txt
--'  8  36  ~/list.txt
--'  9  36  ~/list.txt
 -'  13  0  ~/query.sh
--'  3  36  ~/list.txt
--'  7  36  ~/list.txt
--'  2  36  ~/list.txt
--'  1  0  ~/list.txt
--'  8  36  ~/list.txt
--'  9  36  ~/list.txt
--'  3  36  ~/list.txt
--'  7  36  ~/list.txt
--'  2  36  ~/list.txt
--'  1  0  ~/list.txt
--'  8  36  ~/list.txt
--'  9  36  ~/list.txt
--'  3  36  ~/list.txt
--'  7  36  ~/list.txt
--'  2  36  ~/list.txt
--'  1  0  ~/list.txt
--'  8  36  ~/list.txt
--'  9  36  ~/list.txt
--'  3  36  ~/list.txt
--'  7  36  ~/list.txt
--'  2  36  ~/list.txt
--'  1  0  ~/list.txt
--'  8  36  ~/list.txt
--'  9  36  ~/list.txt
--'  3  36  ~/list.txt
--'  7  36  ~/list.txt
--'  2  36  ~/list.txt
--'  1  0  ~/list.txt
--'  8  36  ~/list.txt
--'  9  36  ~/list.txt
--'  3  36  ~/list.txt
--'  7  36  ~/list.txt
--'  2  36  ~/list.txt
--'  1  0  ~/list.txt
--'  8  36  ~/list.txt
--'  9  36  ~/list.txt
--'  3  36  ~/list.txt
--'  7  36  ~/list.txt
--'  2  36  ~/list.txt
--'  1  0  ~/list.txt
--'  8  36  ~/list.txt
--'  9  36  ~/list.txt
 -'  12  0  ~/query.sh
--'  3  36  ~/list.txt
--'  7  36  ~/list.txt
--'  2  36  ~/list.txt
 -'  1  0  ~/list.txt
+-'  9  8  ~/is_latest.sh
+-'  5  1  ~/is_latest.sh
+-'  21  2  ~/need_rebuild.sh
+-'  15  2  ~/need_rebuild.sh
+-'  16  1  ~/need_rebuild.sh
+-'  13  1  ~/need_rebuild.sh
+-'  1  0  ~/need_rebuild.sh
+-'  1  0  ~/problematic_no_python36.txt
+-'  10  9  ~/try_python36.sh
+-'  11  2  ~/try_python36.sh
+-'  1  0  ~/try_python36.sh
+-'  10  2  ~/is_latest.sh
+-'  8  1  ~/is_latest.sh
+-'  1  5  ~/is_latest.sh
+-'  6  6  ~/is_latest.sh
+-'  13  2  ~/is_latest.sh
+-'  1  0  ~/problematic
+-'  1  0  ~/problematic.txt
+-'  5  0  ~/problematic_and_newest.txt
+-'  1  0  ~/problematic_and_newest.txt
+-'  4  1  ~/is_latest.sh
+-'  2  0  ~/is_latest.sh
+-'  1  0  /etc/yum.repos.d/epel.repo
 -'  8  36  ~/list.txt
 -'  9  36  ~/list.txt
--'  11  0  ~/query.sh
 -'  3  36  ~/list.txt
 -'  7  36  ~/list.txt
 -'  2  36  ~/list.txt
+-'  3  36  ~/query.sh
+-'  4  8  ~/query.sh
 -'  1  0  ~/list.txt
--'  8  36  ~/list.txt
--'  9  36  ~/list.txt
--'  3  36  ~/list.txt
--'  7  36  ~/list.txt
--'  2  36  ~/list.txt
+-'  9  8  ~/is_latest.sh
+-'  5  1  ~/is_latest.sh
+-'  21  2  ~/need_rebuild.sh
+-'  15  2  ~/need_rebuild.sh
+-'  16  1  ~/need_rebuild.sh
+-'  12  2  ~/total.sh
+-'  3  36  ~/query.sh
+-'  4  8  ~/query.sh
 -'  1  0  ~/list.txt
--'  8  36  ~/list.txt
--'  9  36  ~/list.txt
--'  3  36  ~/list.txt
--'  7  36  ~/list.txt
--'  2  36  ~/list.txt
--'  1  0  ~/list.txt
--'  8  36  ~/list.txt
--'  9  36  ~/list.txt
--'  3  36  ~/list.txt
--'  7  36  ~/list.txt
--'  2  36  ~/list.txt
--'  1  0  ~/list.txt
+-'  9  8  ~/is_latest.sh
+-'  1  0  ~/need_rebuild.
 
 # History of marks within files (newest to oldest):
 
-> /etc/yum.repos.d/epel.repo
+> ~/need_rebuild.txt
+	"	22	0
+
+> ~/need_rebuild.
+	"	1	0
+
+> ~/not_found.sh
+	"	1	0
+
+> ~/not_found.
 	"	1	0
 
 > ~/total.sh
-	"	12	29
+	"	12	2
 	^	12	30
 	.	12	29
 	+	3	0
@@ -178,9 +195,9 @@
 	+	12	29
 
 > ~/query.sh
-	"	4	8
-	^	5	11
-	.	5	10
+	"	3	36
+	^	3	37
+	.	3	36
 	+	13	4
 	+	7	4
 	+	7	62
@@ -209,6 +226,7 @@
 	+	5	7
 	+	6	8
 	+	5	10
+	+	3	36
 
 > ~/list.txt
 	"	1	0
@@ -221,3 +239,92 @@
 	+	8	19
 	+	2	0
 	+	1	2
+
+> ~/is_latest.sh
+	"	9	8
+	^	9	9
+	.	9	8
+	+	3	24
+	+	5	0
+	+	4	12
+	+	3	27
+	+	4	15
+	+	5	74
+	+	4	8
+	+	5	71
+	+	9	7
+	+	13	36
+	+	15	0
+	+	6	15
+	+	5	54
+	+	1	0
+	+	6	21
+	+	7	14
+	+	8	11
+	+	9	11
+	+	8	1
+	+	7	1
+	+	6	1
+	+	10	2
+	+	11	2
+	+	12	2
+	+	10	2
+	+	13	23
+	+	9	8
+
+> ~/need_rebuild.sh
+	"	21	2
+	^	16	3
+	.	16	2
+	+	4	5
+	+	5	16
+	+	10	15
+	+	21	11
+	+	10	14
+	+	7	7
+	+	4	5
+	+	5	16
+	+	8	6
+	+	6	15
+	+	5	10
+	+	7	68
+	+	17	22
+	+	13	0
+	+	12	21
+	+	13	9
+	+	14	0
+	+	17	29
+	+	14	34
+	+	15	1
+	+	17	7
+	+	15	12
+	+	16	2
+
+> ~/problematic_no_python36.txt
+	"	1	0
+
+> ~/try_python36.sh
+	"	10	9
+	^	10	10
+	.	10	9
+	+	5	22
+	+	6	0
+	+	4	44
+	+	7	1
+	+	8	1
+	+	9	1
+	+	11	2
+	+	14	29
+	+	10	9
+
+> ~/problematic
+	"	1	0
+
+> ~/problematic.txt
+	"	1	0
+
+> ~/problematic_and_newest.txt
+	"	5	0
+
+> /etc/yum.repos.d/epel.repo
+	"	1	0

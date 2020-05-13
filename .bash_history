@@ -229,3 +229,203 @@ exit
 ls
 vim /etc/yum.repos.d/epel.repo 
 exit
+ls
+git init
+yum install git]
+yum install git
+ls
+git init
+git add .
+git commit -m "11.5.2020"
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+git commit -m "11.5.2020"
+git remote add origin https://github.com/jlindaue/python34.git
+git push -u origin master
+export https_proxy=http://www-proxy-lon.uk.oracle.com:80
+git push -u origin master
+ls
+git clone https://github.com/jlindaue/repo.git
+ls
+cd repo
+ls
+./initialization.sh x86
+ls
+chmod 755 torepo.sh 
+ls
+cat > download.txt 
+ls
+cd repo
+ls
+cd .
+cd ..
+ls
+./torepo.sh download.txt 
+yum clean all
+ls
+cd repo
+ls
+yum install petsc-3.11.3-10.el7.x86_64
+yum install --disablerepo=ol7_addons petsc-3.11.3-10.el7.x86_64
+export no_proxy=oracle.com
+yum install petsc-3.11.3-10.el7.x86_64
+ls
+rm -f *.rpm
+ls
+cd ..
+ls
+./torepo.sh download.txt 
+ls
+cd repo
+ls
+grep " install " /var/log/dpkg.log
+ls
+cd ..
+ls
+ls /etc/yum.repos.d/
+rpm -qa --last | head
+rpm -qa --last | head 150
+rpm -qa --last | head -150
+rpm -qa --last | head -100
+rpm -qa --last | head -80
+rpm -qa --last | head -70
+rpm -qa --last | head -90
+rpm -qa --last | head -98
+rpm -qa --last | head -97
+rpm -qa --last | head -97 | awk ${print $1}
+ls
+git init
+yum install git]
+yum install git
+ls
+git init
+git add .
+git commit -m "11.5.2020"
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+git commit -m "11.5.2020"
+git remote add origin https://github.com/jlindaue/python34.git
+git push -u origin master
+export https_proxy=http://www-proxy-lon.uk.oracle.com:80
+git push -u origin master
+ls
+git clone https://github.com/jlindaue/repo.git
+ls
+cd repo
+ls
+./initialization.sh x86
+ls
+chmod 755 torepo.sh 
+ls
+cat > download.txt 
+ls
+cd repo
+ls
+cd .
+cd ..
+ls
+./torepo.sh download.txt 
+yum clean all
+ls
+cd repo
+ls
+yum install petsc-3.11.3-10.el7.x86_64
+yum install --disablerepo=ol7_addons petsc-3.11.3-10.el7.x86_64
+export no_proxy=oracle.com
+yum install petsc-3.11.3-10.el7.x86_64
+ls
+rm -f *.rpm
+ls
+cd ..
+ls
+./torepo.sh download.txt 
+ls
+cd repo
+ls
+grep " install " /var/log/dpkg.log
+ls
+cd ..
+ls
+ls /etc/yum.repos.d/
+rpm -qa --last | head
+rpm -qa --last | head 150
+rpm -qa --last | head -150
+rpm -qa --last | head -100
+rpm -qa --last | head -80
+rpm -qa --last | head -70
+rpm -qa --last | head -90
+rpm -qa --last | head -98
+rpm -qa --last | head -97
+rpm -qa --last | head -97 | awk ${print $1}
+ls
+for line in $(cat download.txt); do
+for line in $(awk '{print $1}' download.txt); do yum remove $line; done
+ls
+cd repo
+ls
+rm -f *.rpm
+ls
+createrepo --update $(pwd)
+ls
+cd ..
+ls
+exit
+ls
+cp query.sh is_latest.sh
+vim is_latest.sh 
+rm is_latest.sh 
+cp total.sh is_latest.sh
+vim is_latest.sh 
+head list.txt 
+head problematic.txt 
+vim is_latest.sh 
+yum whatprovides asciinema
+yum install asciinema
+rpmquery --enabelasciinema
+repoquery asciinema
+repoquery --enablerepo=* asciinema
+repoquery --enablerepo=* prelude-correlator
+ls
+vim is_latest.sh 
+touch problematic_and_newest.txt
+./is_latest.sh 
+ls
+vim is_latest.sh 
+vim problematic_and_newest.txt 
+vim problematic.txt 
+vim problematic
+vim is_latest.sh 
+./is_latest.sh 
+vim is_latest.sh 
+./is_latest.sh 
+repoquery --enablerepo=* prelude-correlator
+yum repolist
+repoquery --disablerepo=* --enablerepo=epel-qa prelude-correlator
+vim is_latest.sh 
+./is_latest.sh 
+ls
+vim is_latest.sh 
+./is_latest.sh problematic.txt 
+vim is_latest.sh 
+./is_latest.sh problematic.txt 
+ls
+cat > problematic_and_newest.txt 
+vim is_latest.sh 
+./is_latest.sh 
+vim is_latest.sh 
+cp is_latest.sh try_python36.sh
+ls
+vim try_python36.sh 
+./try_python36.sh 
+ls
+vim problematic_no_python36.txt 
+cp problematic_no_python36.txt need_rebuild.sh
+cp try_python36.sh need_rebuild.sh
+vim need_rebuild.sh 
+ls
+chmod 755 need_rebuild.sh 
+./need_rebuild.sh 
+ls
+vim need_rebuild.txt 
+vim need_rebuild.
+vim need_rebuild.sh
